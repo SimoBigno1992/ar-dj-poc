@@ -1,0 +1,31 @@
+{
+  "name": "dan-john-3d-poc",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --experimental-https",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.97.5",
+    "@react-three/fiber": "^8.15.16",
+    "@react-three/postprocessing": "^2.16.0",
+    "@types/three": "^0.161.2",
+    "axios": "^1.6.7",
+    "next": "14.1.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-qr-code": "^2.0.12",
+    "three": "^0.161.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "typescript": "^5"
+  }
+}
