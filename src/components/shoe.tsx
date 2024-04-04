@@ -17,7 +17,7 @@ function Shoe() {
     if (ref.current) {
       ref.current.rotation.set(1, 2.2, -0.8);
       ref.current.position.y = (0.5 + Math.cos(t / 2)) / 7;
-      ref.current.scale.set(0.2, 0.8, 0.8);
+      ref.current.scale.set(0.8, 0.8, 0.8);
     }
   });
 
@@ -28,6 +28,7 @@ function Shoe() {
         castShadow
         geometry={nodes.defaultMaterial.geometry}
         material={materials.NikeShoe}
+        scale={[0.35, 0.15, 0.4]}
       />
     </group>
   );
