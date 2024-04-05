@@ -15,7 +15,7 @@ function Shoe() {
   useFrame((state) => {
     const t = state.clock.getElapsedTime();
     if (ref.current) {
-      ref.current.rotation.set(1, 2.2, -0.8);
+      ref.current.rotation.set(1, 2, -0.8);
       ref.current.position.y = (0.5 + Math.cos(t / 2)) / 7;
       ref.current.scale.set(0.8, 0.8, 0.8);
     }
