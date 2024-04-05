@@ -8,7 +8,7 @@ function Scene() {
   return (
     <Canvas
       eventPrefix="client"
-      camera={{ position: [0, 0, 4], fov: 40 }}
+      camera={{ position: [0, 0, 4], fov: 40, zoom: 0.5 }}
       style={{
         position: "absolute",
         left: "30%",
