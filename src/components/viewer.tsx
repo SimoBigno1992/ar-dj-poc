@@ -42,6 +42,7 @@ function Viewer() {
 				loading='lazy'
 				camera-controls
 				autoplay>
+					{isMobile && <img slot="environment-image" src="/vercel.svg" />}
 					<button onClick={openAR}>
 							Anteprima in AR
 					</button>
