@@ -1,11 +1,11 @@
 //@ts-nocheck
 "use client";
-import '@google/model-viewer';
 import QRCode from 'react-qr-code';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import axios from 'axios';
 
 function Viewer() {
+	useEffect(() => { import('@google/model-viewer').catch(console.error); }, []);
 	const [message, setMessage] = useState('');
 	const openAR = async () => {
 		const res = await axios.get(`${window.location.href}api/checkMobile`);
