@@ -35,7 +35,7 @@ a {
 
 svg {
   fill: black;
-  width: 100px !important;
+  width: 60px !important;
 }
 
 caption {
@@ -139,7 +139,7 @@ header {
   top: calc(100% - 150px);
   left: 50%;
   transform: translateX(-50%);
-  width: 350px;
+  width: 300px;
   padding: 20px;
   background-color: #6D8BB0;
   border-radius: 64px;
@@ -153,8 +153,8 @@ header {
 }
 
 model-viewer {
-  width: 600px;
-  height: 600px;
+  width: 300px;
+  height: 300px;
 }
 
 model-viewer button {

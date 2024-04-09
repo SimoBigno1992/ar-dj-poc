@@ -26,7 +26,7 @@ function Info() {
 						top: '50%',
 						left: '50%',
 						right: 'auto',
-						bottom: '-20%',
+						bottom: '0%',
 						marginRight: '-50%',
 						transform: 'translate(-50%, -50%)'
 					}
