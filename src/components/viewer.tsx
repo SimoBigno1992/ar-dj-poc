@@ -35,7 +35,7 @@ function Viewer() {
 		<>
 			<model-viewer
 				className={(isMobileDevice ? 'model-viewer-mobile' : '')}
-				src={'/nike.glb'}
+				src={'/nike.glb#callToAction=Browse%20API&checkoutTitle=Kids%20Slide&checkoutSubtitle=Playground%20in%20your%20backyard&price=$145'}
 				ios-src={'/slide.usdz#callToAction=Browse%20API&checkoutTitle=Kids%20Slide&checkoutSubtitle=Playground%20in%20your%20backyard&price=$145'}
 				alt='model name'
 				ar
