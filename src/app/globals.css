@@ -171,3 +171,8 @@ model-viewer button {
   transition: all .3s ease-in-out;
   margin-left: 20px;
 }
+
+.model-viewer-mobile {
+  height: 300px;
+  width: 300px;
+}

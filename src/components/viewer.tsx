@@ -7,9 +7,11 @@ import axios from 'axios';
 function Viewer() {
 	useEffect(() => { import('@google/model-viewer').catch(console.error); }, []);
 	const [message, setMessage] = useState('');
+	const [isMobileDevice, setIsMobileDevice] = useState(false);
 	const openAR = async () => {
 		const res = await axios.get(`${window.location.href}api/checkMobile`);
 		const { message, isMobile } = await res.data;
+		setIsMobileDevice(isMobile)
 
 		if (!isMobile) {
 			setMessage(message);
@@ -21,6 +23,7 @@ function Viewer() {
 	return (
 		<>
 			<model-viewer
+				className={isMobileDevice ? 'model-viewer-mobile' : ''}
 				src={'/nike.glb'}
 				ios-src={'/nike.usdz'}
 				alt='model name'
