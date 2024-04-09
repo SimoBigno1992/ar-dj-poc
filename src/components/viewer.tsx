@@ -36,7 +36,7 @@ function Viewer() {
 			<model-viewer
 				className={(isMobileDevice ? 'model-viewer-mobile' : '')}
 				src={'/nike.glb'}
-				ios-src={'/nike.usdz'}
+				ios-src={'/slide.usdz'}
 				alt='model name'
 				ar
 				loading='lazy'
