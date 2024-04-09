@@ -14,7 +14,7 @@ function Viewer() {
 
 	useEffect(() => { 
 		import('@google/model-viewer').catch(console.error);
-		checkMobile(); 
+		checkMobile() 
 	}, []);
 
 	const [message, setMessage] = useState('');
@@ -35,14 +35,13 @@ function Viewer() {
 		<>
 			<model-viewer
 				className={(isMobileDevice ? 'model-viewer-mobile' : '')}
-				src={'intent://arvr.google.com/scene-viewer/1.0?file=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/Avocado/glTF/Avocado.gltf&mode=ar_only#Intent;scheme=https;package=com.google.android.googlequicksearchbox;action=android.intent.action.VIEW;S.browser_fallback_url=https://developers.google.com/ar;end;'}
+				src={'/nike.glb'}
 				ios-src={'/nike.usdz'}
 				alt='model name'
 				ar
 				loading='lazy'
 				camera-controls
 				autoplay>
-					{isMobileDevice && <img slot="environment-image" src="/vercel.svg" />}
 					<button onClick={openAR}>
 							Anteprima in AR
 					</button>
