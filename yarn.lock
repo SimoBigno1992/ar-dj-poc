@@ -515,6 +515,11 @@ ansi-styles@^6.1.0:
   resolved "https://registry.yarnpkg.com/ansi-styles/-/ansi-styles-6.2.1.tgz#0e62320cf99c21afff3b3012192546aacbfb05c5"
   integrity sha512-bN798gFfQX+viw3R7yrGWRqnrN2oRkEkUjjl4JNn4E8GxxbjtG3FbrEIIY3l8/hrwUwIeCZvi4QuOTP4MErVug==
 
+ar.js@^2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/ar.js/-/ar.js-2.2.2.tgz#4d9698ec8e479c10ae7a4b3268076523a141626e"
+  integrity sha512-ThNE9oOGcosmMRKVkkKgHgHhDpLKXikLkFGCviAka5L3GAP3mpU1S5xJ9UWviJDncfzDfyezDCGe+bm321nyqQ==
+
 argparse@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/argparse/-/argparse-2.0.1.tgz#246f50f3ca78a3240f6c997e8a9bd1eac49e4b38"
