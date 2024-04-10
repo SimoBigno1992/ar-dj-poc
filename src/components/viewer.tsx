@@ -67,6 +67,7 @@ function Viewer() {
                 alt='model name'
                 loading='lazy'
                 camera-controls
+								ar
                 autoplay>
                 <button onClick={openAR}>
                     Anteprima in AR
