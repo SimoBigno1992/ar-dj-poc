@@ -43,9 +43,9 @@ function Viewer() {
 				camera-controls
 				ar-modes="scene-viewer"
 				autoplay>
-					<button onClick={openAR}>
+					{!isMobileDevice && <button onClick={openAR}>
 							Anteprima in AR
-					</button>
+					</button>}
 			</model-viewer>
 			{message && (
 				<div className='desktop-ar-container'>
