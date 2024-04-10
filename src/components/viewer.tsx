@@ -41,7 +41,7 @@ function Viewer() {
 				ar
 				loading='lazy'
 				camera-controls
-				ar-modes="scene-viewer webxr quick-look"
+				ar-modes="scene-viewer"
 				autoplay>
 					<button onClick={openAR}>
 							Anteprima in AR
