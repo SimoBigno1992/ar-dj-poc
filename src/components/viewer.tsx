@@ -36,12 +36,11 @@ function Viewer() {
 			<model-viewer
 				className={(isMobileDevice ? 'model-viewer-mobile' : '')}
 				src={'/nike.glb'}
-				ios-src={'/nike.usdz'}
+				ios-src={'/nike.usdz#applePayButtonType=plain&checkoutTitle=Nike%20Running&checkoutSubtitle=With%20built-in%20FM%20tuner&price=$92.50"'}
 				alt='model name'
 				ar
 				loading='lazy'
 				camera-controls
-				ar-modes="scene-viewer"
 				autoplay>
 					{!isMobileDevice && <button onClick={openAR}>
 							Anteprima in AR
