@@ -463,6 +463,11 @@
   dependencies:
     "@use-gesture/core" "10.3.0"
 
+a-frame@^0.0.0:
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/a-frame/-/a-frame-0.0.0.tgz#ae407043d1759a339a050dd0879b0de6c55f6b91"
+  integrity sha512-0L9I6+fBBrjBMfLeZez93eJII/8L8AJVjg+DAMY05fP95c6r63BXix0nMOi0SVPAlB2dxU5AwkxAI8vhmWTvxA==
+
 acorn-jsx@^5.3.2:
   version "5.3.2"
   resolved "https://registry.yarnpkg.com/acorn-jsx/-/acorn-jsx-5.3.2.tgz#7ed5bb55908b3b2f1bc55c6af1653bada7f07937"
@@ -472,6 +477,11 @@ acorn@^8.9.0:
   version "8.11.3"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.11.3.tgz#71e0b14e13a4ec160724b38fb7b0f233b1b81d7a"
   integrity sha512-Y9rRfJG5jcKOE0CLisYbojUjIrIEE7AGMzA/Sm4BslANhbS+cDMpgBdcPT91oJ7OuJ9hYJBx59RjbhxVnrF8Xg==
+
+aframe-react@^4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/aframe-react/-/aframe-react-4.4.0.tgz#f8af660bc4f64746d7cddb065ad9cc5e88f358b9"
+  integrity sha512-/3C0fhCRJywLSP7JsZM/nG/bGQxbt8oEnRK3DLOUmcCtd6xulpwOf8i/Mb0Mbg/U77Y097wdSZ0mVXgEL2+u4Q==
 
 ajv@^6.12.4:
   version "6.12.6"
